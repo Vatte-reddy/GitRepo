@@ -1,0 +1,16 @@
+{
+  "name": "code-analyzer-js-parser",
+  "version": "1.0.0",
+  "description": "Babel-based JavaScript/TypeScript AST parser for code analysis",
+  "main": "js_parser.js",
+  "scripts": {
+    "parse": "node js_parser.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.5",
+    "@babel/traverse": "^7.23.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
